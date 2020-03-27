@@ -17,7 +17,8 @@ def print_first_directors_movie_titles
   array_index = 0
   output_array = []
   while array_index < first_director_films.length do
-    output_array.push(first_director_films[array_index][:title])
+    #output_array.push(first_director_films[array_index][:title])
+    puts first_director_films[array_index][:title]
     array_index += 1
   end
   return output_array
