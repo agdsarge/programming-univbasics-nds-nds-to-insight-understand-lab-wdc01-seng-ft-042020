@@ -12,7 +12,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  puts ddb.class
+  ddb - directors_database
   first_director_films = ddb[0][:movies] #array of hashes
   array_index = 0
   output_array = []
